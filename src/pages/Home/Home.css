@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 10px;
+  padding: 30px 50px;
   flex-wrap: wrap;
   gap: 40px calc(20% / 4 - 40px) !important;
 }
