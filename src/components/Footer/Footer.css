@@ -1,0 +1,30 @@
+.footer-container {
+  margin-top: auto;
+  background-color: #e6e9f2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  align-items: center;
+  color: #000;
+}
+
+.footer-container > h3,
+.icons-container {
+  flex: 0 0 auto !important;
+}
+
+.footer-container > h3 {
+  text-transform: uppercase;
+}
+
+.icons-container {
+  display: flex;
+  gap: 25px;
+}
+
+@media all and (max-width: 1200px) {
+  .footer-container {
+    display: none;
+  }
+}

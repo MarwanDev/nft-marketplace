@@ -1,0 +1,70 @@
+.card-container {
+  background-color: #fafafa;
+  max-width: 424px;
+  border-radius: 47px;
+  box-shadow: 0px 4px 66px 0px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+.card-details {
+  padding: 0 15px;
+}
+
+.card-header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-name {
+  color: #000;
+}
+
+.card-price {
+  color: #23252b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 49px;
+  background: #e1edd9;
+  padding: 9px 35px;
+}
+
+.card-btn {
+  background-color: #fafafa;
+  border-radius: 87px;
+  color: #23252b;
+  padding: 18px;
+  width: 280px;
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  height: 90px;
+}
+
+.card-container:hover .card-btn {
+  opacity: 1;
+}
+
+@media all and (max-width: 600px) {
+  .card-container {
+    max-width: 320px;
+  }
+
+  .card-btn {
+    width: 200px;
+    height: 80px;
+    padding: 12px;
+    top: 22%;
+  }
+}

@@ -1,0 +1,127 @@
+.slide-card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  background-color: #e6e9f2;
+  margin: 20px 70px;
+  justify-content: space-between;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.content-container,
+.slide-card-container > img {
+  flex: 0 0 auto !important;
+}
+
+.content-container > p {
+  padding: 9px 35px;
+  border-radius: 49px;
+  background: #fadfe4;
+  color: #23252b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 150px;
+  text-align: center;
+  line-height: normal;
+}
+
+.content-container > h2 {
+  color: #617587;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.content-container > h3 {
+  font-size: 64px;
+  color: #000;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.profile-container {
+  display: flex;
+  gap: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}
+
+.artist {
+  color: #617587;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.artist-name {
+  color: #23252b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px 40px;
+  margin-top: 40px;
+}
+
+.buy-btn,
+.collections-btn {
+  border-radius: 87px;
+  padding: 24px;
+  width: 220px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.buy-btn {
+  background-color: #23252b;
+  color: #fafafa;
+}
+
+.collections-btn {
+  background-color: transparent;
+  border: 1px solid #23252b;
+  color: #23252b;
+}
+
+.progress-bars-container {
+  display: flex;
+  gap: 20px;
+  padding: 0 95px;
+  margin: 140px 0 10px 0;
+}
+
+@media all and (max-width: 1200px) {
+  .slide-card-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .slide-card-container > img {
+    width: 100% !important;
+    align-self: center;
+    margin: auto;
+    flex: 0 0 auto !important;
+  }
+}

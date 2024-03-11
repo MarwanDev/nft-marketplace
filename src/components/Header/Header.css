@@ -1,0 +1,38 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 25px 70px;
+  align-items: center;
+}
+
+.header-container > a,
+.wallet-btn {
+  flex: 0 0 auto !important;
+}
+
+.header-container > a {
+  text-transform: uppercase;
+  color: #23252b;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.wallet-btn {
+  color: #23252b;
+  background-color: transparent;
+  border-radius: 87px;
+  border: 1px solid #23252b;
+  padding: 24px 42px;
+  font-size: 16px;
+}
+
+@media all and (max-width: 1200px) {
+  .header-container { 
+    display: none;
+  }
+}
