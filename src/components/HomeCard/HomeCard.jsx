@@ -11,7 +11,7 @@ const HomeCard = () => {
       <img
         src={future}
         alt="card"
-        style={{ borderRadius: 47, maxHeight: 360 }}
+        style={{ borderRadius: 47, height: 270 }}
       />
       <button className="card-btn">
         <div
