@@ -1,11 +1,35 @@
-import React from 'react';
+import React from "react";
+import "./Details.css";
+import { DetailsMainCard, DetailsCard } from "../../components";
 
 const Details = () => {
   return (
-    <div>
-      Details
+    <div
+      style={{ display: "flex", flexDirection: "column" }}
+      className="details-container"
+    >
+      <DetailsMainCard />
+      <h3
+        style={{
+          marginLeft: 70,
+          marginTop: 30,
+          color: "#000",
+          fontSize: 24,
+          fontWeight: 800,
+        }}
+      >
+        NFTs
+      </h3>
+      <div className="collections">
+        <DetailsCard />
+        <DetailsCard />
+        <DetailsCard />
+        <DetailsCard />
+        <DetailsCard />
+        <DetailsCard />
+      </div>
     </div>
   );
-}
+};
 
 export default Details;

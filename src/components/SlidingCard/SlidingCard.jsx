@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./SlidingCard.css";
 import stars from "../../assets/stars.jpg";
 import avatar from "../../assets/avatar.png";
